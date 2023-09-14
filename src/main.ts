@@ -439,7 +439,7 @@ class CsvView extends TextFileView {
 				}
 			}
 		}
-		MarkdownRenderer.renderMarkdown(value, TD, this.file.path || "", this || null);
+		MarkdownRenderer.renderMarkdown(value, TD, "", this || null);
 		return TD;
 	};
 
